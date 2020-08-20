@@ -1,7 +1,9 @@
 import React from "react";
 
-import Btn from "elements/Buttons";
+import Button from "elements/Button";
 
 export default function Homepages() {
-  return <Btn>Homepages</Btn>;
+  return <div>
+    <Button isPrimary isSmall>Sign Up</Button>
+  </div>;
 }
